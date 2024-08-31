@@ -1,0 +1,154 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e23c7;
+  }
+  
+  header {
+    background-color: #050505;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  section {
+    text-align: center;
+    /* Centraliza o texto e a imagem dentro da seção */
+  }
+  
+  section img {
+    border-radius: 50%;
+    display: block;
+    /* Faz com que a imagem se comporte como um bloco */
+    margin: 0 auto;
+    /* Centraliza a imagem dentro do container */
+  }
+  
+  section p.summary {
+    margin: 0 auto;
+    /* Garante que o parágrafo fique centralizado */
+    max-width: 600px;
+    /* Define uma largura máxima para o parágrafo, se necessário */
+  }
+  
+  
+  border-radius: 50%;
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  #position {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fdfcfc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .summary {
+    font-size: 18px;
+  }
+  
+  #experience {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #experience li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #skills {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #skills th,
+  #skills td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #skills th {
+    font-size: 18px;
+    background-color: #f4f4f4;
+  }
+  
+  #contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contact-form label,
+  #contact-form input,
+  #contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #contact-form textarea {
+    height: 100px;
+  }
+  
+  #contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #contact-form input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #0a0a0a;
+    color: #fff;
+  }
+  
+  #contacts {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contacts li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #contacts li:last-child {
+    margin-right: 0;
+  }
+  
+  #contacts a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
